@@ -21,6 +21,8 @@
  */
 
 /* votre code ici */
+
+//evenements rajouté pour valider chaque champs du formulaire
 var inputName =document.getElementById("contactaname");
 inputName.addEventListener('keyup' , (Event)=>{
 
@@ -36,7 +38,7 @@ inputName.addEventListener('keyup' , (Event)=>{
 
     }
 });
-
+// 
 var inputEmail =document.getElementById("contactPassword");
 inputName.addEventListener('keyup' , (Event)=>{
 
