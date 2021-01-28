@@ -56,6 +56,18 @@ inputName.addEventListener('keyup' , (Event)=>{
     }
 });
 
+var inputPhone = document.getElementById("contactPhone");
+inputPhone.addEventListener('keyup',(Event)=>{
+    let 
+
+
+
+
+
+
+})
+
+
 
 
 
