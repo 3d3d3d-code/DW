@@ -26,7 +26,7 @@ xhr.send();
 var log = document.getElementById('log');
 
 /**
- * lit un tabelau contenant des objets "cars"
+ * lit un tablEau contenant des objets "cars"
  * le tableau provient du JSON récupéré par fetch() (plus bas)
  * @param array data les données des voitures
  */
@@ -49,7 +49,7 @@ function readCars(data)
 // promesses : https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/Promise
 // fetch API : https://developer.mozilla.org/fr/docs/Web/API/Fetch_API/Using_Fetch
 // appel asynchrone : fetch
-// quant la réponse est réceptionné par fetch
+// quand la réponse est réceptionné par fetch
 // le then suivant est exécuté.
 // lorsqu'un then a terminé sa tâche
 // le then suivant est exécuté

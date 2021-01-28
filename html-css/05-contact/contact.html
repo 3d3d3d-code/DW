@@ -29,7 +29,8 @@
 
                 <div>
                     <label>Votre numéro de téléphone :</label>
-                    <input type="tel" id="contactPhone" name="contactPhone" pattern="[0-9]+" placeholder="01.02.03.04.05">
+                    <input type="tel" id="contactPhone" name="contactPhone" pattern="(/^([0-9]{10}$)/) " placeholder="01.02.03.04.05">
+                    <span id="validationPhone"></span>
                 </div>
 
                 <div>
