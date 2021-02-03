@@ -17,20 +17,17 @@
     
                 <div>
                     <label>Votre nom :</label>
-                    <input type="text" id="contactName" name="contactName" pattern="^[A-Za-z]+{3,30}$" placeholder="Votre nom" title="Votre nom doit respecter le bon format" required="true">
-                    <span id="validationName"></span>
+                    <input type="text" id="contactName" name="contactName" pattern="[A-Za-z0-9]+" placeholder="Votre nom" title="Votre nom doit respecter le bon format" required="true">
                 </div>
     
                 <div>
                     <label>Votre email :</label>
-                    <input type="email" id="contactPassword" name="contactPassword" pattern="^\b[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}\b$" placeholder="exemple@email.com" title="Votre email doit respecter le bon format" required="true"> 
-                    <span id="validationEmail"></span>
+                    <input type="email" id="contactPassword" name="contactPassword" pattern="[A-Za-z0-9]+" placeholder="exemple@email.com" title="Votre email doit respecter le bon format" required="true"> 
                 </div>
 
                 <div>
                     <label>Votre numéro de téléphone :</label>
-                    <input type="tel" id="contactPhone" name="contactPhone" pattern="(/^([0-9]{10}$)/) " placeholder="01.02.03.04.05">
-                    <span id="validationPhone"></span>
+                    <input type="tel" id="contactPhone" name="contactPhone" pattern="[A-Za-z0-9]+" placeholder="01.02.03.04.05">
                 </div>
 
                 <div>

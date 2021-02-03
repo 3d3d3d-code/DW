@@ -22,66 +22,6 @@
 
 /* votre code ici */
 
-//evenements rajouté pour valider chaque champs du formulaire
-var inputName =document.getElementById("contactaname");
-inputName.addEventListener('keyup' , (Event)=>{
-
-    let validationName = document.getElementById('validationName');
-
-    if(!Event.target.value.match(Event.target.pattern)) { // si la valeur du champ ne correspond pas à sa regex (définie dans pattern)
-        validationName.innerHTML = '&#10060;'; // croix rouge 
-        validationName.classList.remove("success");
-    } 
-    else {
-        validationName.innerHTML = '&check;'; // check  donc ok
-        validationName.classList.add("success");
-
-    }
-});
-// 
-var inputEmail =document.getElementById("contactPassword");
-inputEmail.addEventListener('keyup' , (Event)=>{
-
-
-    let validationEmail = document.getElementById('validationEmail');
-
-    if(!Event.target.value.match(Event.target.pattern)) { 
-      
-        validationEmail.innerHTML = '&#10060;'; 
-        validationEmail.classList.remove("success");
-    } 
-    else {
-        validationEmail.innerHTML = '&check;'; 
-        validationEmail.classList.add("success");
-
-    }
-});
-
-var inputPhone = document.getElementById("contactPhone");
-inputPhone.addEventListener('keyup',(Event)=>{
-
-    let validationPhone = document.getElementById('validationPhone')
-
-    if(!Event.target.value.match(Event.target.pattern)) { 
-      
-        validationPhone.innerHTML = '&#10060;'; 
-        validationPhone.classList.remove("success");
-    } 
-    else {
-        validationPhone.innerHTML = '&check;'; 
-        validationPhone.classList.add("success");
-
-    }
-
-
-
-
-
-
-})
-
-
-
 
 
 
