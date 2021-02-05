@@ -3,7 +3,7 @@ class ApiZipCode
     constructor(cars)
     {
         this.zipCode = code;
- this.url = './zipcodes.json'
+ this.url = ''
     }
 
     fetchData() {
