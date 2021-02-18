@@ -3,7 +3,7 @@ const btnCalc = document.getElementById('calc'); // bouton
 const divResult = document.getElementById('result'); // résultat
 
 /**
- * contrôle le nombre fouRni en paramètre est un diviseur valide (strictement positif)
+ * contrôle le le nombre founi en paramètre est un diviseur valide (strictement positif)
  * @param number nb le diviseur à tester
  */
 const checkDivider = (nb) => {
