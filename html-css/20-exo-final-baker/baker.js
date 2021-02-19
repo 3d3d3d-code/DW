@@ -1,6 +1,10 @@
 
 
 const myBaker = {
+    data({
+
+        
+    })
     
 }
 
