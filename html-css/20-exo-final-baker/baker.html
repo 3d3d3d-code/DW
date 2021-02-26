@@ -16,27 +16,36 @@
 
 <body>
     <div id="grille">
-        <header>
+        <header class="content">
             <h1> Le Boulanger</h1>
 
-            <button v-on click>Ouvrir la boulangerie</button>
+           
+            <table>
+                <tr>
+                    <th>Or gagné</th>
+                    <tH>Or dépensé</th>
+                    <th>Farine produite</th>
+                    <th>Baguettes produites</th>
 
-            <nav>
-                <ul>
-                    <li> Or gagné</li>
-                    <li> Or dépensé</li>
-                    <li>Farine produite</li>
-                    <li>Baguettes produites</li>
 
-                </ul>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
 
-            </nav>
+            </table>
+
+
 
         </header>
-        <main>
-            
+        <main class="content">
+
             <div id="boulangerie">
                 <h2>Boulangerie</h2>
+                <button v-on click>Ouvrir la boulangerie</button>
             </div>
             <div id="commandes">
                 <h2>Commandes</h2>
@@ -46,7 +55,7 @@
             </div>
         </main>
 
-        <footer>
+        <footer class="content">
             <a href="http://www.arfp.asso.fr">Centre de Réadaptation de Mulhouse</a>
         </footer>
 

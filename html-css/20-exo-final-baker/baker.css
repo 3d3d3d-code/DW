@@ -23,9 +23,34 @@ h1,h2{
     color: #FFFFFF;
 }
 #grille{
+    display: grid;
+
+       color: #FFFFFF
 
 }
 header{
+    display: flex;
+    justify-content: space-between;
+background-color: #55575E;
+}
+table{
 
+    background-color: #44474E;
+}
 
+#boulangerie{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+table{
+
+    color: #FFFFFF
+}
+
+.content{
+
+    border: 1px solid black;
+    padding: 150px;
 }
