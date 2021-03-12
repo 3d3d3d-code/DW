@@ -20,37 +20,86 @@ body{
 }
 h1,h2{
 
-    color: #FFFFFF;
-}
+    color:var(--txt);
+} 
 #grille{
     display: grid;
+    grid-template-rows: 1fr 2fr 4fr 3fr  ;
+    height: 95vh;
 
-       color: #FFFFFF
 
 }
 header{
     display: flex;
     justify-content: space-between;
 background-color: #55575E;
+margin: 0%;
+width: 100%;
 }
 table{
 
     background-color: #44474E;
+    color: #FFFFFF;
+}
+.content{
+ display: flex;
+ justify-content: space-between;
+
+    border: 1px solid black;
+
+   margin-left: 5px;
+   margin-right: 5px;
 }
 
-#boulangerie{
 
+.butin{
+
+    background-color: rgb(53, 53, 58);
+}
+
+
+.compte{
+
+    background-color:#44474E ;
+}
+#reglage
+{
+width: 80%;
+
+}
+
+h1{
+
+    width: 50%;
+
+}
+h2{
     display: flex;
     justify-content: space-between;
 
 }
-table{
+.niveau::after{
 
-    color: #FFFFFF
+content: icon'⚡';
+
 }
 
-.content{
 
-    border: 1px solid black;
-    padding: 150px;
+
+
+
+#boulangerie{
+
+
+}
+section{
+
+    display: flex;
+    justify-content: space-between;
+
+   color:var(--bg-dark);
+}
+img{
+
+    width: 120px; 
 }
